@@ -25,6 +25,21 @@ namespace DatabaseRespository.MongoDb
             }
         }
 
+        public MongoDbRepository(
+    IMongoClient mongoClient,
+    string databaseName,
+    string tableName,
+    CollectionOption? collectionOption = null)
+        {
+            _mongoClient = (MongoClient)mongoClient;
+            _database = _mongoClient.GetDatabase(databaseName);
+
+            if (collectionOption != null)
+                CreateTableAndIndexes(tableName, collectionOption);
+            else
+                CreateTableAndIndexes(tableName);
+        }
+
         public async Task Add(HashSet<I> items)
         {
             if (items is { Count: <= 0 })

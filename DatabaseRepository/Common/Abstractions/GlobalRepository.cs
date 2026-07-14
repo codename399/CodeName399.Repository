@@ -2,6 +2,7 @@
 using DatabaseRespository.Model;
 using DatabaseRespository.Model.Dto;
 using DatabaseRespository.MongoDb;
+using MongoDB.Driver;
 
 namespace DatabaseRespository.Repositories.Abstractions
 {
@@ -14,6 +15,21 @@ namespace DatabaseRespository.Repositories.Abstractions
         {
             _databaseSetting = MongoDatabaseSetting.ToDto(databaseSetting);
             _mongoDbRepository = new MongoDbRepository<T>(_databaseSetting.ConnectionString ?? string.Empty, databaseSetting.DatabaseName ?? string.Empty, tableName, collectionOption);
+        }
+
+        protected GlobalRepository(
+    IMongoClient mongoClient,
+    MongoDatabaseSetting databaseSetting,
+    string tableName,
+    CollectionOption? collectionOption = null)
+        {
+            _databaseSetting = MongoDatabaseSetting.ToDto(databaseSetting);
+
+            _mongoDbRepository = new MongoDbRepository<T>(
+                mongoClient,
+                databaseSetting.DatabaseName ?? string.Empty,
+                tableName,
+                collectionOption);
         }
     }
 }
