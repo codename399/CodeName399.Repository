@@ -1,0 +1,13 @@
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\bin\Debug\net8.0\CodeName399.Repository.deps.json
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\bin\Debug\net8.0\CodeName399.Repository.dll
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\bin\Debug\net8.0\CodeName399.Repository.pdb
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.csproj.AssemblyReference.cache
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.AssemblyInfoInputs.cache
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.AssemblyInfo.cs
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.csproj.CoreCompileInputs.cache
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.sourcelink.json
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.dll
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\refint\CodeName399.Repository.dll
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\CodeName399.Repository.pdb
+C:\Users\gauda\source\repos\codename399\CodeName399.Repository\CodeName399.Repository\obj\Debug\net8.0\ref\CodeName399.Repository.dll
